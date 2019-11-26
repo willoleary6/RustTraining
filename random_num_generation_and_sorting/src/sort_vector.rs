@@ -1,20 +1,17 @@
-pub fn sort_vector( vec:Vec<i32>){
+pub fn sort_vector(mut vec: Vec<i32>){
 
-    let mut my_vec = vec;
 
-    for x in my_vec{
-        print!("{} ", x);
+    // using the in vector command will take ownership of contents and will stop you
+    // from doing anything with it after, just enumerate through it in the future
+    for x in 0..vec.len(){
+        print!("{} ", vec[x]);
     }
+
     println!();
-    // strange error here, will investigate tomorrow
-    my_vec.sort();
-    /*
-    /*
-    for x in my_vec{
-        print!("{} ", x);
-    }
-    */
-    */
+    vec.sort();
 
+    for x in 0..vec.len(){
+        print!("{} ", vec[x]);
+    }
 
 }

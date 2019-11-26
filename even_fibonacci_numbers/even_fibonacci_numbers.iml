@@ -7,7 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../even_fibonacci_numbers\examples" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../even_fibonacci_numbers\tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../even_fibonacci_numbers\benches" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/../even_fibonacci_numbers\target" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
